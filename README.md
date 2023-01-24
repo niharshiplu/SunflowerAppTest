@@ -1,4 +1,4 @@
-#############################################Prerequisite to run this project################################################
+##################Prerequisite to run this project###################
 Java JDK(1.8 or higher)
 Appium Server
 Connted ADB Devide (to exceute .apk file inside Android Simulator)
@@ -6,7 +6,7 @@ Android Studio(To create ADB Device)
 Eclipse or any Java supported Editor
 git(Reposotory Management tool)
 
-###########################################Test Cases Overview###############################################################
+##########################Test Cases Overview#########################
 
  4 Test cases(scenarios) are designed in BDD style gherkins language(Given-When-Then) format and part of feature file
 
@@ -19,7 +19,7 @@ git(Reposotory Management tool)
 4th testcase(scenario) is verifying that the ADD PLANT Button is working as expected and app navigates to Plant List Tab.
 
 
-######################################Project Structure######################################################################
+######################################Project Structure####################################
 
 The Project is developed using Java,Maven,Junit Runner class(highly configurable),cucumber(BDD) and written in a generic way.
 As it's written in industry standard BDD(Cucumber) framework, it's easily understandable for business users.
@@ -30,6 +30,6 @@ As it's developed using Maven, this project can be run from CLI also without any
 
 
 
-####################################Execution Video##########################################################################
+####################################Execution Video########################################
 
 Execution Video's are uploaded under same project directory in github inside the "Test Execcution" folder.
