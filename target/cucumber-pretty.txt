@@ -1,0 +1,21 @@
+
+@tag @smoke-01
+Scenario: Verify text message on Landing screen                    # src/test/java/features/sunflowertest.feature:5
+  When User launch Sunflower app                                   # steps.SunflowerTest.user_launch_sunflower_app()
+  Then User sees My Garden screen with "Your garden is empty" text # steps.SunflowerTest.user_sees_my_garnden_screen_with_text(java.lang.String)
+
+@tag @smoke-02
+Scenario: Verify Button visibility on Landing screen      # src/test/java/features/sunflowertest.feature:10
+  When User launch Sunflower app                          # steps.SunflowerTest.user_launch_sunflower_app()
+  Then User sees My Garden screen with "ADD PLANT" button # steps.SunflowerTest.user_sees_my_garnden_screen_with_button(java.lang.String)
+
+@tag @func-01
+Scenario: Verify Plant List and My Garden tab is clickable # src/test/java/features/sunflowertest.feature:15
+  When User launch Sunflower app                           # steps.SunflowerTest.user_launch_sunflower_app()
+  Then User click Plant List and My Garden tab             # steps.SunflowerTest.user_click_plant_list_and_my_garden_tab()
+
+@tag @func-02
+Scenario: Verify ADD PLANT button click navigates to Plant List tab # src/test/java/features/sunflowertest.feature:20
+  Given User launch Sunflower app                                   # steps.SunflowerTest.user_launch_sunflower_app()
+  When User clicks ADD PLANT button                                 # steps.SunflowerTest.user_clicks_add_plant_button()
+  Then User navigates to the Plant List tab                         # steps.SunflowerTest.user_navigates_to_the_plant_list_tab()
