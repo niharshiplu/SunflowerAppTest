@@ -1,4 +1,5 @@
 ##################Prerequisite to run this project###################
+
 Java JDK(1.8 or higher)
 Appium Server
 Connted ADB Devide (to exceute .apk file inside Android Simulator)
@@ -8,7 +9,7 @@ git(Reposotory Management tool)
 
 ##########################Test Cases Overview#########################
 
- 4 Test cases(scenarios) are designed in BDD style gherkins language(Given-When-Then) format and part of feature file
+Test cases(scenarios) are designed in BDD style gherkins language(Given-When-Then) format and part of feature file
 
 1st testcase(scenario) is verifying the presentce of text message in the landing screen of the sunflower app.
 
