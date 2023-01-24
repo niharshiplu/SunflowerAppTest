@@ -28,10 +28,15 @@ Test cases(scenarios) are designed in BDD style gherkins language(Given-When-The
 ######################################Project Structure####################################
 
 The Project is developed using Java,Maven,Junit Runner class(highly configurable),cucumber(BDD) and written in a generic way.
+
 As it's written in industry standard BDD(Cucumber) framework, it's easily understandable for business users.
+
 It uses Global hooks(@BeforeAll, @AfterAll) to launch Appium server and stops it when all scenarios are executed.
+
 It generates nice Junit style and cucumber reports which business user can use for reference.
+
 ExcelReader is integrated as a part of util package under src/main/java folder.
+
 As it's developed using Maven, this project can be run from CLI also without any IDE support.
 
 
