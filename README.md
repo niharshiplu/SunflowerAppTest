@@ -1,10 +1,15 @@
 ##################Prerequisite to run this project###################
 
 Java JDK(1.8 or higher)
+
 Appium Server
+
 Connted ADB Devide (to exceute .apk file inside Android Simulator)
+
 Android Studio(To create ADB Device)
-Eclipse or any Java supported Editor
+
+Eclipse or any Java supported IDE
+
 git(Reposotory Management tool)
 
 ##########################Test Cases Overview#########################
